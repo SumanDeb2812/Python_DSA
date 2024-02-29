@@ -20,7 +20,7 @@ def findAvgRe(array):
         count += 1
         findAvgRe(array)
     else:
-        return
+        return  
     return int(a / len(array))
 
 print(findAvgRe([1,2,3]))
