@@ -17,5 +17,6 @@ while i < len(li):
     i += 1
 print()
 
-for x in "12345":
-    print(li[x])
+dist = {'1':'suman', '2':'ram', '3':'sham', '4':'jadhu', '5':'madhu'}
+for key in "12345":
+    print(dist[key], end=", ")

@@ -6,4 +6,4 @@ def convertIntoWord(n):
     for i in s:
         print(dist[i], end=" ")
 
-convertIntoWord(1234567890)
+convertIntoWord(1234507890)
